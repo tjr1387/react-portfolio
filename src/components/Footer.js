@@ -1,3 +1,25 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-// will contain links to my profiles on other sites (like GitHub)
+export default function Footer() {
+  return (
+    <footer>
+      <ul class="footer-list">
+        <li class="footer-item">
+          <a href="https://github.com/tjr1387">
+            GitHub
+          </a>
+        </li>
+        <li class="footer-item">
+          <a href="https://www.linkedin.com/">
+            LinkedIn
+          </a>
+        </li>
+        <li class="footer-item">
+          <a href="https://www.google.com/">
+            Other
+          </a>
+        </li>
+      </ul>
+    </footer>
+  );
+}
