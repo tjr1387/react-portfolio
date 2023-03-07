@@ -31,16 +31,24 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
+      //* The components will be arranged in here */}
+      //* Probably just Header, Project component loop, and Footer */}
+      //* Navigation is nested inside Header, so it doesn't need to go here */}
     <div className="portfolio-app">
-      {/* The components will be arranged in here */}
-      {/* Probably just Header, Project component loop, and Footer */}
-      {/* Navigation is nested inside Header, so it doesn't need to go here */}
-      <div> {/* this nav div wont actually go here*/}
-        <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-        {renderPage()}
-      </div>
+      <Header />
+      <main>
+      {renderPage()}
+      </main>
+      <Footer />
     </div>
   );
 }
+
+// will want access to this functionality, but nav component should be plopped into the Header component
+// <div> 
+//   <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
+//   {renderPage()}
+// </div>
+
 
 export default App;
