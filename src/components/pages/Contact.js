@@ -23,24 +23,27 @@ function validateEmail() {
 
 export default function Contact() {
   return (
-    <form action="#" className="" onSubmit={(e) => e.preventDefault()}>
-      <div className="">
-        <label htmlFor="email-name">Name: </label>
-        <input type="text" name="email-name" id="email-name" onBlur={(e) => handleBlur(e)} required />
-      </div>
-      <div className="">
-        <label htmlFor="email-address">Email Address: </label>
-        <input type="email" name="email-address" id="email-address" onBlur={(e) => handleBlur(e)} onChange={validateEmail} required />
-        <p className="error-text" id="error-msg-email"></p>
-      </div>
-      <div className="">
-        <label htmlFor="email-message">Message: </label>
-        <textarea name="email-message" id="email-message" rows="6" onBlur={(e) => handleBlur(e)} required></textarea>
-      </div>
-      <div className="error-text" id="error-msg-blank"></div>
-      <button>
-        Send
-      </button>
-    </form>
+    <>
+      <h1>Contact</h1>
+      <form action="#" className="" onSubmit={(e) => e.preventDefault()}>
+        <div className="">
+          <label htmlFor="email-name">Name: </label>
+          <input type="text" name="email-name" id="email-name" onBlur={(e) => handleBlur(e)} required />
+        </div>
+        <div className="">
+          <label htmlFor="email-address">Email Address: </label>
+          <input type="email" name="email-address" id="email-address" onBlur={(e) => handleBlur(e)} onChange={validateEmail} required />
+          <p className="error-text" id="error-msg-email"></p>
+        </div>
+        <div className="">
+          <label htmlFor="email-message">Message: </label>
+          <textarea name="email-message" id="email-message" rows="6" onBlur={(e) => handleBlur(e)} required></textarea>
+        </div>
+        <div className="error-text" id="error-msg-blank"></div>
+        <button>
+          Send
+        </button>
+      </form>
+    </>
   );
 }

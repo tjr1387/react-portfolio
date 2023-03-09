@@ -57,10 +57,13 @@ const projects = [
 // this will map thru each object of the projects array
 export default function Portfolio() {
   return (
+    <>
+    <h1>My Projects</h1>
     <div className="projects-container">
       {projects.map(project => 
         <Project key={project.key} title={project.title} description={project.description} imgSrc={project.imgSrc} gitHubUrl={project.gitHubUrl} liveSiteUrl={project.liveSiteUrl} />
       )}
     </div>
+    </>
   )
 };

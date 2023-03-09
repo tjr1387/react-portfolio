@@ -2,7 +2,7 @@
 
 header {
   background-color: darkblue;
-  min-height: 200px;
+  min-height: 170px;
 }
 
 #header-name {
@@ -47,6 +47,31 @@ header {
   color: rgb(255, 230, 0);
 }
 
+main {
+  background-color: rgb(255, 217, 252);
+  padding: 10px
+}
+
+h1 {
+  text-align: center;
+  font-family: "Tahoma", sans-serif;
+  font-size: 36px;
+  color: rgb(2, 2, 39);
+}
+
+p {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 1.33;
+}
+
+#profile-pic {
+  max-height: 80px;
+  display: block;
+  width: auto;
+  margin: 0 auto;
+}
+
 .projects-container {
   display: flex;
   flex-wrap: wrap;
@@ -61,4 +86,33 @@ header {
   min-height: 250px;
   padding: 10px;
   margin: 10px;
+}
+
+footer {
+  background-color: darkblue;
+  min-height: 70px;
+}
+
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.footer-item {
+  padding: 20px;
+}
+
+.footer-item a {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  color: rgb(252, 249, 212);
+  padding: 15px;
+  text-decoration: none;
+}
+
+.footer-item a:hover {
+  font-weight: 700;
+  color: yellow;
 }
