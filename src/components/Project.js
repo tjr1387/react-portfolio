@@ -12,12 +12,11 @@ export default function Project(props) {    // should destructure fields out ins
   //     <a href="`livesite prop`">Site/Video</a>
   //   </div>
   // );
-    return (
-    <div class="project-item">
-      <p class="project-title">Title Prop</p>
-      <p class="project-desc">Description Prop</p>
-      <a href="`repo prop`">Repo</a>
-      <a href="`livesite prop`">Site/Video</a>
+  return (
+    <div className="project-item" style={{ backgroundImage: `url(${props.imgSrc})` }}>
+      <a className="project-title" href={props.liveSiteUrl}>{props.title}</a>
+      <p className="project-desc">{props.description}</p>
+      <a href={props.gitHubUrl}>Repo</a>
     </div>
   );
 }
