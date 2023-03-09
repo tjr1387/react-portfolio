@@ -4,8 +4,7 @@ export default function About() {
   return (
     <div>
       <h1>About Me</h1>
-      {/* some dummy image */}
-      <img src="#" />
+      <img id="profile-pic" src="/assets/images/strong-bad.png" alt="Strong Bad AKA fake me" />
       <p> I was born in Canada, about an hour west of Vancouver, B.C. My father was a Boston sports fan, and I grew to become one also.
         In 1996, he took a job interview in Massachusetts and was offered the position.
         <br></br>
