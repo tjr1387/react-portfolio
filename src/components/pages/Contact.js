@@ -1,20 +1,30 @@
 import React from 'react';
 
+function handleBlur(event) {
+  const blankErrorMsg = document.querySelector('#error-msg-blank');
+  if (!event.target.value.trim()) {
+    blankErrorMsg.innerText = 'These fields are required';
+  } else {
+    blankErrorMsg.innerText = '';
+  }
+}
+
 export default function Contact() {
   return (
-    <form action="#" class="">
-      <div class="">
-        <label for="email-name">Name: </label>
-        <input type="text" name="email-name" id="email-name" required />
+    <form action="#" className="">
+      <div className="">
+        <label htmlFor="email-name">Name: </label>
+        <input type="text" name="email-name" id="email-name" onBlur={(e) => handleBlur(e)} required />
       </div>
-      <div class="">
-        <label for="email-address">Email Address: </label>
-        <input type="email" name="email-address" id="email-address" required />
+      <div className="">
+        <label htmlFor="email-address">Email Address: </label>
+        <input type="email" name="email-address" id="email-address" onBlur={(e) => handleBlur(e)} required />
       </div>
-      <div class="">
-        <label for="email-message">Message: </label>
-        <textarea name="email-message" id="email-message" rows="6" required></textarea>
+      <div className="">
+        <label htmlFor="email-message">Message: </label>
+        <textarea name="email-message" id="email-message" rows="6" onBlur={(e) => handleBlur(e)} required></textarea>
       </div>
+      <div id="error-msg-blank"></div>
       <button>
         Send
       </button>
