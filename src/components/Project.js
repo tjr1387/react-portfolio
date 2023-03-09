@@ -4,8 +4,16 @@ import React, { useState } from 'react';
 // will take props
 
 export default function Project(props) {    // should destructure fields out instead   
-  return (
-    <div class="project-item" style={`background-image: url("imgSrc prop")`}>
+  // return (
+  //   <div class="project-item" style={`background-image: url("imgSrc prop")`}>
+  //     <p class="project-title">Title Prop</p>
+  //     <p class="project-desc">Description Prop</p>
+  //     <a href="`repo prop`">Repo</a>
+  //     <a href="`livesite prop`">Site/Video</a>
+  //   </div>
+  // );
+    return (
+    <div class="project-item">
       <p class="project-title">Title Prop</p>
       <p class="project-desc">Description Prop</p>
       <a href="`repo prop`">Repo</a>

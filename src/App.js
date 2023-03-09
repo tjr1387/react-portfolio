@@ -35,7 +35,7 @@ function App() {
       //* Probably just Header, Project component loop, and Footer */}
       //* Navigation is nested inside Header, so it doesn't need to go here */}
     <div className="portfolio-app">
-      <Header />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <main>
       {renderPage()}
       </main>
@@ -43,12 +43,5 @@ function App() {
     </div>
   );
 }
-
-// will want access to this functionality, but nav component should be plopped into the Header component
-// <div> 
-//   <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-//   {renderPage()}
-// </div>
-
 
 export default App;
