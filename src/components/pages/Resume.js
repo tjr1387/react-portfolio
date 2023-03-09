@@ -5,7 +5,9 @@ export default function Resume() {
     <div>
       <h1>Resume</h1>
       {/* Will need to make this a link to DL a resume file */}
-      <p>Download my <span>resume</span></p>
+      <a href="/assets/fake-resume.txt" download>
+         <button className="download-btn">Download Resume</button>
+      </a>
       
       <h2>Front-end Proficencies</h2>
       <ul>
