@@ -5,8 +5,8 @@ import Navigation from './Navigation';
 export default function Header({ currentPage, handlePageChange}) {
   return (
     <header>
-      <span className="header-name">Tyler Reimer (@tjr1387)</span>
-      <nav className="nav-bar">
+      <span id="header-name">Tyler Reimer (@tjr1387)</span>
+      <nav id="nav-bar">
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       </nav>
     </header>

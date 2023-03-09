@@ -1,1 +1,53 @@
 /* Overall styling will go here */
+
+header {
+  background-color: darkblue;
+  min-height: 200px;
+}
+
+#header-name {
+  display: inline;
+  font-family: "Tahoma", sans-serif;
+  font-size: 36px;
+  color: rgb(253, 189, 245);
+  padding: 10px;
+}
+
+#nav-bar {
+  display: inline;
+  max-width: auto;
+}
+
+#nav-bar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.nav-item {
+  display: inline;
+  font-family: "Arial", sand-serif;
+  font-size: 26px;
+  padding: 5px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(252, 249, 212);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-link:hover {
+  font-weight: 700;
+}
+
+.active {
+  border: 1px solid white;
+  color: rgb(255, 230, 0);
+}
+
+.project-item {
+  max-width: 500px;
+  height: auto;
+}
