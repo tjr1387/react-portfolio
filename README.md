@@ -24,11 +24,13 @@ All that's needed here is `create-react-app`, which initializes a boilerplate, f
 Upon visiting the page, you will land on the 'About Me' view, which has a (fake) avatar of me and a short bio. The nav bar gives you other options, and it's very clear which tab you're currently visiting. Hitting the 'Portfolio' tab will bring you to a list of six of my apps built, with links to the live site (or walkthru video for back-end only apps) and the GitHub repo for each. Hitting the 'Contact' tab will bring you to a form which allows you email me (though it's currently just used for input validation -- it doesn't actually send me an email at this time). All three fields require some content, and the email address needs to be valid (matching a regex). The 'Resume' tab will bring you to a list of my proficiences (though there are just placeholders right now) and a button to download my resume (the download fuctionality works, but I currently don't have a resume, so it's just a placeholder text file). The footer has three links for my profiles pages: GitHub (functional), LinkedIn (just goes to the homepage, as I don't have a profile there yet), and a third placeholder (I'm off almost all social media apps).
 
 Link to live site: https://tjr1387.github.io/react-portfolio/
-
-***THESE STILL NEED TO CAHNGE***
+  
+  
 Screenshot(s):
-![Main page with sample notes](./public/assets/images/main-page-with-notes.png?raw=true "Sample main page with some notes added")
-![JSON 'db' with sample notes](./public/assets/images/GET-api-notes.png?raw=true "GET '/api/notes' of the sample notes from above shot")
+![About](./public/assets/mockups/about-page.png?raw=true "About tab")
+![Portfolio](./public/assets/mockups/portfoilio-page-page.png?raw=true "Portfolio tab")
+![Contact](./public/assets/mockups/contact-page.png?raw=true "Contact tab")
+![Resume](./public/assets/mockups/resume-page.png?raw=true "Resume tab")
 
 ## Credits
 
