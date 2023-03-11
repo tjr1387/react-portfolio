@@ -8,7 +8,7 @@ const projects = [
     key: '1',
     title: 'The Boozy Chef',
     description: 'Front-end project',
-    imgSrc: '/assets/images/boozy-chef-pic.jpg',
+    imgSrc: 'https://tjr1387.github.io/react-portfolio/public/assets/images/boozy-chef-pic.jpg',
     gitHubUrl: 'https://github.com/Anukhadka19/food-drinks-ordering-service',
     liveSiteUrl: 'https://anukhadka19.github.io/food-drinks-ordering-service/',
   },
