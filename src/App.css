@@ -80,12 +80,52 @@ p {
 
 .project-item {
   background-size: cover;
+  font-family: "Lucida Sans Unicode", sans-serif;
   min-width: 400px;
   max-width: 800px;
   max-height: 500px;
   min-height: 250px;
   padding: 10px;
   margin: 10px;
+}
+
+.project-title {
+  background-color: black;
+  text-decoration: none;
+  font-size: 1.25em;
+  color: white;
+  float: right;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.project-title:hover {
+  font-weight: 800;
+}
+
+.project-desc {
+  margin: auto;
+  font-size: .8em;
+  font-weight: 700;
+  font-style: italic;
+  color: darkgray
+}
+
+.project-github {
+  background-color: rgb(209, 242, 250);
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  padding: 2px 6px;
+  position: relative;
+  top: 15px;
+  border-radius: 10px;
+}
+
+.project-github:hover {
+  font-size: 1.2em;
+  font-weight: 800;
+  color: rgb(48, 1, 66);
 }
 
 #contact-form {
