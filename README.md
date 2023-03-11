@@ -28,7 +28,7 @@ Link to live site: https://tjr1387.github.io/react-portfolio/
   
 Screenshot(s):
 ![About](./public/assets/mockups/about-page.png?raw=true "About tab")
-![Portfolio](./public/assets/mockups/portfoilio-page-page.png?raw=true "Portfolio tab")
+![Portfolio](./public/assets/mockups/portfoilio-page.png?raw=true "Portfolio tab")
 ![Contact](./public/assets/mockups/contact-page.png?raw=true "Contact tab")
 ![Resume](./public/assets/mockups/resume-page.png?raw=true "Resume tab")
 
