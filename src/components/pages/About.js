@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div>
       <h1>About Me</h1>
-      <img id="profile-pic" src="/assets/images/strong-bad.png" alt="Strong Bad AKA fake me" />
+      <img id="profile-pic" src="./react-portfolio/assets/images/strong-bad.png" alt="Strong Bad AKA fake me" />
       <p> I was born in Canada, about an hour west of Vancouver, B.C. My father was a Boston sports fan, and I grew to become one also.
         In 1996, he took a job interview in Massachusetts and was offered the position.
         Growing up I was a relatively serious competetive gymnast, doing it through high school graduation. After graduating from Bishop Guertin (Nashua, NH),
