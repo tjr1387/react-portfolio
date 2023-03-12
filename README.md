@@ -34,7 +34,7 @@ Screenshot(s):
 
 ## Credits
 
-The mini-project for the React week was extremely helpful to go off of, as well as the exercise which implememented nav-tabs to different pages.
+The mini-project for the React week was extremely helpful to go off of, as well as the exercise which implemented nav-tabs to different pages.
 
 ## Tests
 
@@ -42,7 +42,7 @@ N/A
 
 ## Comments/Flaws
 
-In terms of functionality, this is pretty solid. In terms of style, it still needs a lot of work to look pretty. The positioning of everthing is decent (except for the contact form -- it's alignment is pretty bad), but the color scheme needs to change, the header is a little wonky (my name doesn't share a line with the navbar) and smaller things like the look of the links inside projects' images could be sleeker. The use of icons from a library like Font Awesome would be a good idea. The responsiveness is actually pretty good -- the project images flex properly which is nice. This will continuously be worked on, as it will serve as a real protfolio vis-av-is employment. I also hope to swap out much better and newer projects for some of the ones I have in there -- like four or even five of them aren't really up to snuff.
+In terms of functionality, this is pretty solid. In terms of style, it still needs a lot of work to look pretty. The positioning of everthing is decent (except for the contact form -- it's alignment is pretty bad), but the color scheme needs to change, the header is a little wonky (my name doesn't share a line with the navbar) and smaller things like the look of the links inside projects' images could be sleeker. The use of icons from a library like Font Awesome would be a good idea. The responsiveness is actually pretty good -- the project images flex properly which is nice. This will continuously be worked on, as it will serve as a real protfolio vis-a-vis employment. I also hope to swap out much better and newer projects for some of the ones I have in there -- like four or even five of them aren't really up to snuff.
 
 
 ## License
