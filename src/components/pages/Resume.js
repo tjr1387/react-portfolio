@@ -4,7 +4,7 @@ export default function Resume() {
   return (
     <>
       <h1>Resume</h1>
-      <a href="/assets/fake-resume.txt" download>
+      <a href="./assets/fake-resume.txt" download>
          <button className="download-btn">Download Resume</button>
       </a>
       <div id="profic-list">
