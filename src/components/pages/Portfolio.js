@@ -6,6 +6,14 @@ import Project from '../Project';
 const projects = [
   {
     key: '1',
+    title: 'BuySomeGames',
+    description: 'MERN stack project',
+    imgSrc: './assets/images/video-game.jpg',
+    gitHubUrl: 'https://github.com/tjr1387/buy_some_games',
+    liveSiteUrl: 'https://calm-peak-12756.herokuapp.com/',
+  },
+  {
+    key: '2',
     title: 'The Boozy Chef',
     description: 'Front-end project',
     imgSrc: './assets/images/boozy-chef-pic.jpg',
@@ -13,7 +21,7 @@ const projects = [
     liveSiteUrl: 'https://anukhadka19.github.io/food-drinks-ordering-service/',
   },
   {
-    key: '2',
+    key: '3',
     title: 'Weather Dashboard',
     description: 'Front-end only',
     imgSrc: './assets/images/weather-dashboard-pic.jpg',
@@ -21,20 +29,12 @@ const projects = [
     liveSiteUrl: 'https://tjr1387.github.io/weather-dashboard',
   },
   {
-    key: '3',
+    key: '4',
     title: 'Tech Blog',
     description: 'Full Stack, pre-React',
     imgSrc: './assets/images/tech-blog-pic.jpg',
     gitHubUrl: 'https://github.com/tjr1387/tech-blog-with-users',
     liveSiteUrl: 'https://calm-tundra-85233.herokuapp.com/',
-  },
-  {
-    key: '4',
-    title: 'Coding Quiz',
-    description: 'Front-end only',
-    imgSrc: './assets/images/quiz-pic.jpg',
-    gitHubUrl: 'https://github.com/tjr1387/api-coding-quiz',
-    liveSiteUrl: 'https://tjr1387.github.io/api-coding-quiz/',
   },
   {
     key: '5',
